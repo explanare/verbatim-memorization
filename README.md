@@ -30,14 +30,14 @@ We use causal interventions to analyze the causal dependencies between the trigg
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FX8C-Rr1tSDjklaGjMvRghcbBSzpzzBS?usp=sharing)
 
-Below is an example of a sequence verbatim memorized by `pythia-6.9b-deduped`, i.e., the first sentence of the book *Harry Potter and the Philosopher's Stone*. The trigger sequence is "Mr and Mrs Dursley, of", i.e., the model can generate the full sentence given only the trigger. Yet, not all generated tokens are actually causally depended on the trigger, e.g., the prediction of the token "you" only depends on representations of the token "thank".
+Below is an example of a sequence verbatim memorized by `pythia-6.9b-deduped`, which is the first sentence of the book *Harry Potter and the Philosopher's Stone*. The trigger sequence is "Mr and Mrs Dursley, of", i.e., the model can generate the full sentence given only the trigger. Yet, not all generated tokens are actually causally dependent on the trigger, e.g., the prediction of the token "you" only depends on representations of the token "thank".
  
 ![Causal dependencies between the trigger and verbatim memorized tokens.](/figures/causal_dependencies.svg)
 
 
 ## Citation
 
-If you find this repo helpful, please cite our work
+If you find this repo helpful, please consider citing our work
 
 ```
 @misc{huang2024demystifying,
