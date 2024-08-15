@@ -7,6 +7,11 @@
 * [`infrequent_sequence`](https://drive.google.com/file/d/1-CgPVrFtW8rmpo1poTIaJCyJPLtDPkdQ/view?usp=sharing): A set of 155 sequences that are memorized by the `pythia-6.9b-deduped` from the `pile_5k_probes` that occur less than twice in 10M examples uniformly sampled from the pile. For each sequence, we manually annotate the total number of occurrences in the Pile and related variants/templates. Many of these sequences indeed only occur once or twice in the training data, however, they are usually under-counted due to limitations of string-based matching or simply not verbatim memorized.
 
 
+# The Sequence Injection Data
+
+* [`injection_data.csv`](https://docs.google.com/spreadsheets/d/10SVXSsVwpq4s7KN92jLyAlCdu9hC6uaM1KYg0hxOuRY/edit?usp=sharing): A list of links to 100 injection sequences. Each sequence has at least 256 tokens, sampled from Internet content published after Dec 2020, the Pile cutoff date. For each sequence, we verify that there is no overlap with Pile data for more than 50 characters using [Data Portraits](https://dataportraits.org/) and provide the corresponding link.
+
+
 # The Unlearning Stress Tests
 
 * [`gptneo_125m_memorized_90example_stress_test`](https://drive.google.com/file/d/1BgtZ_6iCW3euJU__n_M8m-7DyJ7Vdp7v/view?usp=sharing): A set of 90 examples memorized by GPTNeo 125M model from Stoehr et al. (2024) and their perturbations for stress testing unlearning methods. 
