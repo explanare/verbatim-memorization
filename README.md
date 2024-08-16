@@ -35,6 +35,12 @@ Below is an example of a sequence verbatim memorized by `pythia-6.9b-deduped`, w
 ![Causal dependencies between the trigger and verbatim memorized tokens.](/figures/causal_dependencies.svg)
 
 
+### Stress Testing Unlearning Methods
+
+The evaluation scripts, including generating perturbed prefixes, are available below:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19iQjGO37ifHtCM4KtH2fy99lbe2sY_vl?usp=sharing)
+
 ## Citation
 
 If you find this repo helpful, please consider citing our work
