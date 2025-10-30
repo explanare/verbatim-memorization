@@ -1,6 +1,11 @@
 #	Demystifying Verbatim Memorization in Large Language Models
 
-:construction: Work in Progress :construction:
+<div align="center">
+  <a href="https://aclanthology.org/2024.emnlp-main.598/"><strong>Paper</strong></a> | <a href="https://ai.stanford.edu/blog/verbatim-memorization/"><strong>Stanford AI Lab Blog Post</strong></a> | <a href="https://nnsight.net/notebooks/mini-papers/huang_demystifying_memorization/"><strong>NNSight Mini Paper Tutorials</strong></a>
+  <br>
+  <br>
+</div>
+
 
 Verbatim memorization refers to LLMs outputting long sequences of texts that are exact matches of their training examples. In our work, we show that verbatim memorization is intertwined with the LM's general capabilities and thus will be very difficult to isolate and suppress without degrading model quality.
 
@@ -45,14 +50,22 @@ The evaluation scripts, including generating perturbed prefixes, are available b
 
 If you find this repo helpful, please consider citing our work
 
-```
-@misc{huang2024demystifying,
-      title={Demystifying Verbatim Memorization in Large Language Models}, 
-      author={Jing Huang and Diyi Yang and Christopher Potts},
-      year={2024},
-      eprint={2407.17817},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.17817}, 
+```bibtex
+@inproceedings{huang-etal-2024-demystifying,
+    title = "Demystifying Verbatim Memorization in Large Language Models",
+    author = "Huang, Jing  and
+      Yang, Diyi  and
+      Potts, Christopher",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.598/",
+    doi = "10.18653/v1/2024.emnlp-main.598",
+    pages = "10711--10732",
 }
 ```
